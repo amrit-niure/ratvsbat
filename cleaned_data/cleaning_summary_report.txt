@@ -1,0 +1,39 @@
+============================================================
+DATA CLEANING SUMMARY REPORT
+============================================================
+Date: 2025-09-07 22:05:56
+
+DATASET 1 (Behavioral Data):
+  - Original observations: Unknown (cleaned version has 907)
+  - Features after cleaning: 29
+  - Behavior categories:
+    * other: 330
+    * quick_feeding: 246
+    * feeding: 237
+    * unknown: 58
+    * aggressive: 35
+    * vigilant: 1
+
+DATASET 2 (Time Series Data):
+  - Original observations: Unknown (cleaned version has 2123)
+  - Features after cleaning: 29
+  - Food availability levels:
+    * moderate: 677
+    * abundant: 591
+    * low: 476
+    * scarce: 379
+
+CLEANING OPERATIONS PERFORMED:
+  1. Datetime conversion and validation
+  2. Missing value imputation
+  3. Categorical data standardization
+  4. Outlier detection and flagging
+  5. Feature engineering (time-based, interactions)
+  6. Data validation and range checking
+  7. Binary encoding for machine learning readiness
+
+RECOMMENDED NEXT STEPS:
+  1. Exploratory data analysis
+  2. Statistical testing for rat vs no-rat conditions
+  3. Time series analysis for patterns
+  4. Machine learning model development
